@@ -1,0 +1,36 @@
+{
+  "writters": [
+    {
+      "id": "a",
+      "name": "a",
+      "born":"a",
+      "deceased": "a",
+      "description": "a",
+      "image": "a"
+    },
+    {
+      "id": "b",
+      "name": "b",
+      "born":"b",
+      "deceased": "b",
+      "description": "b",
+      "image": "b"
+    },
+    {
+      "id": "c",
+      "name": "c",
+      "born":"c",
+      "deceased": "c",
+      "description": "c",
+      "image": "c"
+    },
+    {
+      "id": "d",
+      "name": "d",
+      "born":"d",
+      "deceased": "d",
+      "description": "d",
+      "image": "d"
+    }
+  ]
+}
