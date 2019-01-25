@@ -13,6 +13,7 @@ export default ({ match: { url }, writters }) =>
         )
       }
     </ul>
+    <Route exact path={`${url}`} render={() => (<div><h2>Select a writter from de list</h2></div>)}/>
     <Route path={`${url}/:writterId`} render={
       ({match}) => <Writter {...writters.find(writer => writer.id === match.params.writterId)} />
     } />
