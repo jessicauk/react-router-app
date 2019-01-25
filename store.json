@@ -1,36 +1,36 @@
 {
   "writters": [
     {
-      "id": "a",
-      "name": "a",
-      "born":"a",
-      "deceased": "a",
-      "description": "a",
-      "image": "a"
+      "id": "Jane Austen",
+      "name": "Jane Austen",
+      "born":"1775",
+      "deceased": "1817",
+      "description": "The Jane Austen Centre’s website states: ‘Jane Austen is perhaps the best known and best loved of Bath’s many famous residents and visitors.’ One wonders at the restraint in that, considering that Jane Austen is indisputably one of the greatest English writers – some say the greatest after Shakespeare – and certainly the greatest English novelist and one of the most famous English women who ever lived…",
+      "image": "https://www.nosweatshakespeare.com/wp-content/uploads/2015/04/jane-austin-portrait-80x80.jpg"
     },
     {
-      "id": "b",
-      "name": "b",
-      "born":"b",
-      "deceased": "b",
-      "description": "b",
-      "image": "b"
+      "id": "William Blake",
+      "name": "William Blake",
+      "born":"1757",
+      "deceased": "1827",
+      "description": "Although not highly regarded either as a painter or poet by his contemporaries William Blake has the distinction of finding his place in the top ten of both English writers and English painters. The reason he was disregarded is because he was very much ahead of his time in his views and his poetic style, and also because he was regarded as being somewhat mad, due to behaviour that would be thought of as only slightly eccentric today– for example his naturistic habit of walking about his garden naked and sunbathing there…",
+      "image": "https://www.nosweatshakespeare.com/wp-content/uploads/2015/04/william-blake-portrait-80x80.jpg"
     },
     {
-      "id": "c",
-      "name": "c",
-      "born":"c",
-      "deceased": "c",
-      "description": "c",
-      "image": "c"
+      "id": "Charles Dickens",
+      "name": "Charles Dickens",
+      "born":" 1812",
+      "deceased": "1870",
+      "description": "Charles Dickens was an extraordinary man. He is best known as a novelist but he was very much more than that. He was as prominent in his other pursuits but they were not areas of life where we can still see him today.  We see him as the author of such classics as Oliver Twist, David Copperfield, Great Expectations, A Tale of Two Cities, Bleak House and many others. All of his novels are English classics…",
+      "image": "https://www.nosweatshakespeare.com/wp-content/uploads/2015/04/charles-dickens-photograph-80x80.jpg"
     },
     {
-      "id": "d",
-      "name": "d",
-      "born":"d",
-      "deceased": "d",
-      "description": "d",
-      "image": "d"
+      "id": "Harold Pinter",
+      "name": "Harold Pinter",
+      "born":"1930",
+      "deceased": "2008",
+      "description": "Harold Pinter won the Nobel Prize for Literature in 2005, three years before his death from cancer. He had a career of more than half a century as a playwright, director, actor and writer of screenplays for television and film. He was without doubt the most influential English playwright of the twentieth century and so earns his place on this list… ",
+      "image": "https://www.nosweatshakespeare.com/wp-content/uploads/2015/04/Harold-Pinter-photo-80x80.jpg"
     }
   ]
 }
