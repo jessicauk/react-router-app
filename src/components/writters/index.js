@@ -1,6 +1,7 @@
 import React, { Fragment }from 'react';
 import { Route, Link } from 'react-router-dom';
-import Writter from './writter';
+import Writter from './Writter';
+import NotFound from '../Errors/404';
 
 export default ({ match: { url }, writters }) => 
   <Fragment>
@@ -14,7 +15,13 @@ export default ({ match: { url }, writters }) =>
       }
     </ul>
     <Route exact path={`${url}`} render={() => (<div><h2>Select a writter from de list</h2></div>)}/>
-    <Route path={`${url}/:writterId`} render={
-      ({match}) => <Writter {...writters.find(writer => writer.id === match.params.writterId)} />
+    <Route path={`${url}/:writerId`} render={
+      ({match}) => {
+        const writer = writters.find(writer => writer.id === match.params.writerId);
+        if (!writer) {
+          return <NotFound />
+        }
+        return <Writter {...writer} />
+      }
     } />
   </Fragment>
