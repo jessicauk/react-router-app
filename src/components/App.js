@@ -3,11 +3,16 @@ import { BrowserRouter, Link, Route, Switch, withRouter } from 'react-router-dom
 import Wirtters from './Writters';
 import NotFound from './Errors/404';
 
+import model from '../TensorFlow'
+
 export default class App extends Component {
   state = {
     writters: [],
   }
   componentDidMount = async () => {
+
+    console.log('model', model);
+    
     const writters = await (await fetch('http://localhost:3004/writters?_embed=texts')).json()
     this.setState({
       writters,
