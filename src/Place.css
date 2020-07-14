@@ -1,0 +1,15 @@
+.Place {
+  display: flex;
+  width: 250px;
+  height: 250px;
+  padding: 10px 10px;
+  border: 0.2rem solid gray;
+  margin: 0.2em;
+  align-self: baseline;
+  flex-basis: max-contet;
+}
+.Place span {
+  margin: 10px 10px;
+  vertical-align: middle;
+  line-height: 2px
+}

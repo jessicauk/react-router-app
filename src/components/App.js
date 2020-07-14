@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react';
 import { BrowserRouter, Link, Route, Switch, withRouter } from 'react-router-dom';
 import Wirtters from './Writters';
 import NotFound from './Errors/404';
+import Places from './Places';
 
 import model from '../TensorFlow'
 
@@ -38,11 +39,17 @@ export default class App extends Component {
                 Witters
               </Link>
             </li>
+            <li>
+              <Link to="/places">
+                Places
+              </Link>
+            </li>
           </ul>
           <hr />
           <Switch>
             <Route exact path="/" render={() => <div>Home</div>}/>
             <Route path="/writters" render={props => <Wirtters {...props} writters={writters}/>} />
+            <Route path="/places" component={Places} />
             <Route component={NotFound} />
           </Switch>
         </Fragment>

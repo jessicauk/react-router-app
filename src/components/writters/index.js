@@ -23,5 +23,5 @@ export default ({ match: { url }, writters }) =>
         }
         return <Writter {...writer} />
       }
-    } />
+    } /> 
   </Fragment>
